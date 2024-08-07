@@ -1,0 +1,8 @@
+filename,name, cost, effect
+Introductions.png,Making Introductions, 0, Spend 5 stored Dignitas to give one character 3.
+Introductions.png,Temporary Opening, 1, Move one character up a rung. If they have enough Dignitas to have reached it at the end of the turn they may stay.
+connections.png,Connections, 1, Use the action of any occupied role space.
+assassination.png,Assassination, 1, Force one character to make their current Death roll.
+FamilyFriend.png,Friend of the Family, 2, Acquire one Retainer for free.
+FamilyFriend.png,Interdisciplinary, 0, While resolving an Event you may use a character from another Tree. They are treated as being at the same rank.
+InterestingTimes.png,Interesting Times, 1, May reroll any one character's job result this turn.

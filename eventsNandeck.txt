@@ -1,0 +1,51 @@
+link=events.txt,fileName,name,tree,description,rewardr1,rewardr2,rewardr3,failurer1,failurer2,failurer3
+dpi=300
+oversample=2
+
+[numCards]=8
+[all]=1-[numCards]
+[allbacks]={[numCards]+1}-{[numCards]*2}
+[darkest]=#182d41
+[darker]=#20486c
+[dark]=#683535
+[light]=#8facc7
+[lighter]=#8facc7
+[darkgrey]=#182d41
+[grey]=#20486c
+[lightgrey]=#8a8a8a
+[textcolor]=[darker]
+
+PAGE=21,29.7,PORTRAIT,HV,#FFFFFF,[allbacks]
+CARDSIZE=6.3,8.8
+
+border=rounded, [dark], 0.5
+image=[all],events.png,0,0,100%,100%
+font= "arial", 20, TB, #FFFFF0
+text = [all], [name],3%,9.5%,90%,20%,right,wwtop
+text = [all], [tree],6%,2.7%,90%,20%,left,wwtop
+rectangle=[all],18%,19%,64%,43%,[dark]
+image=[all],[fileName],20%,20.5%,60%,40%
+
+layer=50%
+rectangle=[all],0%,63%,100%,37%,#FFFFF0
+endlayer
+font= "arial", 13, TB, [textcolor]
+text = [all], [description],8%,63%,84%,29%,center,wwtop
+text = [all], [rewardr1],8%,76%,84%,29%,left,wwtop
+text = [all], [rewardr2],8%,82%,84%,29%,left,wwtop
+text = [all], [rewardr3],8%,88%,84%,29%,left,wwtop
+text = [all], [failurer1],8%,76%,84%,29%,right,wwtop
+text = [all], [failurer2],8%,82%,84%,29%,right,wwtop
+text = [all], [failurer3],8%,88%,84%,29%,right,wwtop
+
+; back of cards and returns
+image=[allbacks],events.png,0,0,100%,100%
+font= "arial", 30, TB, #FFFFF0
+text=[allbacks],EVENTS,5%,75%,90%,20%,center,wwtop
+duplex=[all],[allbacks]
+Print=duplex
+display=./cards_event_fronts.png,1,[numCards]
+display=./cards_event_backs.png,{[numCards]+1},{[numCards]*2}
+
+; save cards with bleed
+save=[all], "./cards_numbered/card_events{§}.png", 0, 0, 6.3, 8.8
