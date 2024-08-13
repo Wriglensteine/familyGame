@@ -1,0 +1,7 @@
+godName,abilityName,abilityDescription
+Jupiter,Might,When resolving an Event: You may reroll your contributing Dice.
+Juno,Family,You may have 1 more family member before beginning to pay maintenance.
+Venus,Love,High vox populi additionally generates equal Pietas to gained Dignitas per round.
+Minerva,Wisdom,When you would draw a Scheme card: Draw 1 extra and discard 1.
+Mars,War,When drawing random skills of new characters: If there are no Mil tokens replace one with a Mil token.
+Pluto,Tranquility,When a character dies: You may move 2 Dignitas of the dying character to another character.
