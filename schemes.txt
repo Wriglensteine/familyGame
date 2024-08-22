@@ -1,8 +1,24 @@
 filename,name, cost, effect
-Introductions.png,Making Introductions, 0, Spend 5 stored Dignitas to give one character 3.
-Introductions.png,Temporary Opening, 1, Move one character up a rung. If they have enough Dignitas to have reached it at the end of the turn they may stay.
-connections.png,Connections, 1, Use the action of any occupied role space.
-assassination.png,Assassination, 1, Force one character to make their current Death roll.
-FamilyFriend.png,Friend of the Family, 2, Acquire one Retainer for free.
-FamilyFriend.png,Interdisciplinary, 0, While resolving an Event you may use a character from another Tree. They are treated as being at the same rank.
-InterestingTimes.png,Interesting Times, 1, May reroll any one character's job result this turn.
+Introductions.png,Horsetrading,1,Swap any 2 neutral characters die.
+Introductions.png,Slow Drain,0,Lower the value of a neutral dice by 1.
+connections.png,Gossip,1,Lower a player's Vox Pop by 1.
+assassination.png,Family Name,0,Spend 1 Dignitas to add it to 1 character.
+FamilyFriend.png,Effort,1,Reroll 2 unspent action die.
+FamilyFriend.png,Bad Luck,0,Reroll another player's action dice.
+InterestingTimes.png,Big Name,2,A character may join an ongoing promotion duel not connected to their role.
+Introductions.png,No Confidence,2,Initiate a promotion duel. The current character in the role competes too.
+Introductions.png,Propoganda,3,For one round all of your successful characters gain 1 Dignitas.
+Introductions.png,Own Interests,2,Spend an action die to add half its value to a promotion duel.
+Introductions.png,Didn't Want It Anyway,1,If you lose the current duel refund spent Dignitas.
+Introductions.png,Sponsor,1,You may spend 2 of another of your character's Dignitas in this duel.
+Introductions.png,Hollow Accusations,1,Cancel the effect of an opponent's scheme in this duel.
+Introductions.png,Deception,0,Do nothing.
+Introductions.png,Gambit,1,Gain 1 scheme card if you lose this duel.
+Introductions.png,Allies,1,Gain 1 Dignitas for this duel. Keep it if you win.
+Introductions.png,Bickering,1,Pick a character and equally ranked opponent. Both roll job. If you win swap roles.
+Introductions.png,Gentle Push,2,Pick an opponent's character. They must make a Grace roll of 5 or retire.
+Introductions.png,Under Pressure,2,Pick an opponent's character. They must make a Strat roll of 5 or age 1.
+Introductions.png,Spurious Remours,2,Pick an opponent's character. They must make a Char roll of 5 or lose 2 Dig.
+Introductions.png,Singular Focus,0,Discard X schemes. Gain X Dignitas to the family pool.
+Introductions.png,Distraction,1,Lower your opponent's duel investment by 2. Refund the Dignitas.
+Introductions.png,Assassination,2,Remove a neutral character, triggering a duel.
