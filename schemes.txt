@@ -1,24 +1,26 @@
 filename,name, cost, effect
-Introductions.png,Horsetrading,1,Swap any 2 neutral characters die.
-Introductions.png,Slow Drain,0,Lower the value of a neutral dice by 1.
-connections.png,Gossip,1,Lower a player's Vox Pop by 1.
-assassination.png,Family Name,0,Spend 1 Dignitas to add it to 1 character.
-FamilyFriend.png,Effort,1,Reroll 2 unspent action die.
-FamilyFriend.png,Bad Luck,0,Reroll another player's action dice.
-InterestingTimes.png,Big Name,2,A character may join an ongoing promotion duel not connected to their role.
-Introductions.png,No Confidence,2,Initiate a promotion duel. The current character in the role competes too.
-Introductions.png,Propoganda,3,For one round all of your successful characters gain 1 Dignitas.
-Introductions.png,Own Interests,2,Spend an action die to add half its value to a promotion duel.
-Introductions.png,Didn't Want It Anyway,1,If you lose the current duel refund spent Dignitas.
-Introductions.png,Sponsor,1,You may spend 2 of another of your character's Dignitas in this duel.
+Introductions.png,Horsetrading,2,Swap any 2 neutral characters die.
+Introductions.png,Slow Drain,1,Lower the value of a neutral dice by 1.
+connections.png,Gossip,3,Lower a player's Vox Pop by 1.
+assassination.png,Family Name,1,Spend 1 Dignitas to add it to 1 character.
+FamilyFriend.png,Effort,3,Reroll 2 unspent action die.
+FamilyFriend.png,Bad Luck,3,Reroll another player's action dice.
+InterestingTimes.png,Big Name,4,A character may join an ongoing promotion duel not connected to their role.
+Introductions.png,No Confidence,4,Initiate a promotion duel. The current character in the role competes too.
+Introductions.png,Propoganda,6,For one round all of your successful characters gain 1 Dignitas.
+Introductions.png,Own Interests,0,Spend an action die to add half its value to a promotion duel.
+Introductions.png,Didn't Want It Anyway,2,If you lose the current duel refund spent Dignitas.
+Introductions.png,Sponsor,2,You may spend 2 of another of your character's Dignitas in this duel.
 Introductions.png,Hollow Accusations,1,Cancel the effect of an opponent's scheme in this duel.
 Introductions.png,Deception,0,Do nothing.
-Introductions.png,Gambit,1,Gain 1 scheme card if you lose this duel.
-Introductions.png,Allies,1,Gain 1 Dignitas for this duel. Keep it if you win.
-Introductions.png,Bickering,1,Pick a character and equally ranked opponent. Both roll job. If you win swap roles.
-Introductions.png,Gentle Push,2,Pick an opponent's character. They must make a Grace roll of 5 or retire.
-Introductions.png,Under Pressure,2,Pick an opponent's character. They must make a Strat roll of 5 or age 1.
-Introductions.png,Spurious Remours,2,Pick an opponent's character. They must make a Char roll of 5 or lose 2 Dig.
+Introductions.png,Gambit,0,Gain 1 scheme card if you lose this duel.
+Introductions.png,Allies,2,Gain 1 Dignitas for this duel. Keep it if you win.
+Introductions.png,Bickering,3,Pick a character and equally ranked opponent. Both roll job. If you win swap roles.
+Introductions.png,Gentle Push,7,Pick an opponent's character. They must make a Grace roll of 5 or retire.
+Introductions.png,Under Pressure,5,Pick an opponent's character. They must make a Strat roll of 5 or age 1.
+Introductions.png,Spurious Rumours,5,Pick an opponent's character. They must make a Char roll of 5 or lose 2 Dig.
 Introductions.png,Singular Focus,0,Discard X schemes. Gain X Dignitas to the family pool.
-Introductions.png,Distraction,1,Lower your opponent's duel investment by 2. Refund the Dignitas.
-Introductions.png,Assassination,2,Remove a neutral character, triggering a duel.
+Introductions.png,Distraction,3,Lower your opponent's duel investment by 2. Refund the Dignitas.
+Introductions.png,Assassination,5,Remove a neutral character, triggering a duel.
+Introductions.png,Effective Planning,1,Split an unspent die into two die with the same total value.
+Introductions.png,Creative Solutions,0,Spend a die. Gain half its value in schemes, rounding up.

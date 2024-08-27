@@ -1,0 +1,14 @@
+jobName,jobImage,jobRank,onSuccess,onFailure,jobAction
+tribune,Gods/schemesMars,1,Gain 1 Dignitas,No penalty,Action: Add 1 to an unspent die.
+legate,Gods/schemesMars,2,Gain 2 Dignitas,Lose 1 Dignitas,Passive: Spend 1 Dig. to defend any character from harm.
+general,Gods/schemesMars,3,Gain 3 Dignitas,Demotion,Action: Put a die to one side. You may spend it on a following turn.
+quaestor,Gods/schemesJupiter,1,Gain 1 Dignitas,No penalty,Action: Gain 1 Popularity or 1 Loyalty.
+praetor,Gods/schemesJupiter,2,Gain 2 Dignitas,Demotion,Passive: May spend 1 of this char's Dig. in other char's promotions.
+consul,Gods/schemesJupiter,3,Gain 4 Dignitas,Demotion & Lose Popularity,Action: May reset your Loyalty and gain/lose 1 Dig. per step from +Loy/-Loy.
+censor,Gods/schemesJupiter,4,Gain 2 Dignitas,Retire,Action: Remove a neutral character.
+acolyte,Gods/schemesJuno,1,Gain 1 Dignitas,No penalty,Action: Spend 3 Dig. or a die with value 3 to gain 1 stat.
+priest,Gods/schemesJuno,2,Gain 1 Dignitas and +1 to a die,Lose 1 Dignitas,Action: Draw 2 schemes and keep 1.
+pontifex,Gods/schemesJuno,3,Gain 2 Dignitas and +1 to a die,Age 1,Action: Gain a die at value 1.
+propraetor,Gods/schemesPluto,2,Gain 2 Dignitas,No penalty,Action: Spend 3 Dig. or a die with value 3 to give another char 1 stat.
+proconsul,Gods/schemesPluto,3,Gain 3 Dignitas,Lose 1 Popularity,Passive: Gain 1 Disloyalty per round.
+dictator,Gods/schemesPluto,3,Gain 5 Dignitas,Demotion and remove role,Passive: Play 1 scheme for free each round. 

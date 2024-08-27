@@ -1,0 +1,48 @@
+link=./jobs.txt,jobName,jobImage,jobRank,onSuccess,onFailure,jobAction
+;setup
+dpi=300
+oversample=2
+[numCards]=14
+[all]=1-[numCards]
+[allbacks]={[numCards]+1}-{[numCards]*2}
+[doubleSided]=1 - {[numCards]*2}
+PAGE=21,29.7,PORTRAIT,HV,#FFFFFF
+[textColor1] = #FFFFFF
+
+;background image
+image=[doubleSided], "./[jobImage].png", 0, 0, 100%, 100%
+
+;Title text
+[xtext]=5%
+[ytext]=3%
+[twidth]=90%
+[theight] = 20%
+font= "Perpetua Titling MT", 16, TB, [textColor1]
+text = [doubleSided],[jobName],[xtext],[ytext], [twidth], [theight],left,wwtop
+[xtext]=5%
+[ytext]=13%
+font= "Perpetua Titling MT", 14, TB, [textColor1]
+text = [doubleSided],[jobRank],[xtext],[ytext], [twidth], [theight],right,wwtop
+[xtext]=5%
+[ytext]=25%
+[theight] = 40%
+font= "Perpetua Titling MT", 12, TB, [textColor1]
+text = [doubleSided], "On Success:\13\[onSuccess]",[xtext],[ytext], [twidth], [theight],left,wwtop
+[xtext]=5%
+[ytext]=50%
+[theight] = 40%
+font= "Perpetua Titling MT", 12, TB, [textColor1]
+text = [doubleSided],"On Failure:\13\[onFailure]",[xtext],[ytext], [twidth], [theight],left,wwtop
+[xtext]=5%
+[ytext]=75%
+[theight] = 40%
+font= "Perpetua Titling MT", 12, TB, [textColor1]
+text = [doubleSided],[jobAction],[xtext],[ytext], [twidth], [theight],left,wwtop
+
+duplex=[all],[allbacks]
+Print=duplex
+display=./cards_roles_fronts.png,1,[numCards]
+display=./cards_roles_backs.png,{[numCards]+1},{[numCards]*2}
+
+; save cards with bleed
+save=[all], "./cards_numbered/cards_roles{§}.png", 0, 0, 6.3, 8.8
