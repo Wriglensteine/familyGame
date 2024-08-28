@@ -29,14 +29,11 @@ image=[all],[fileName],20%,20.5%,60%,40%
 layer=50%
 rectangle=[all],0%,63%,100%,37%,#FFFFF0
 endlayer
-font= "arial", 13, TB, [textcolor]
+font= "arial", 11, TB, [textcolor]
 text = [all], [description],8%,63%,84%,29%,center,wwtop
-text = [all], [rewardr1],8%,76%,84%,29%,left,wwtop
-text = [all], [rewardr2],8%,82%,84%,29%,left,wwtop
-text = [all], [rewardr3],8%,88%,84%,29%,left,wwtop
-text = [all], [failurer1],8%,76%,84%,29%,right,wwtop
-text = [all], [failurer2],8%,82%,84%,29%,right,wwtop
-text = [all], [failurer3],8%,88%,84%,29%,right,wwtop
+text = [all],"Option 1:\13\[rewardr1]\13\[rewardr2]\13\[rewardr3]",6%,74%,88%,38%,left,wwtop
+text = [all],"Option 2:\13\[failurer1]\13\[failurer2]\13\[failurer3]",6%,74%,88%,38%,right,wwtop
+text = [all],"rank:\13\1\13\2\13\3",6%,74%,88%,38%,center,wwtop
 
 ; back of cards and returns
 image=[allbacks],events.png,0,0,100%,100%

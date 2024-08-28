@@ -1,0 +1,45 @@
+link=./crossroads.txt,name,option1,option2,option3
+;setup
+dpi=300
+oversample=2
+[outputName]=crossroads
+[numCards]=12
+[all]=1-[numCards]
+[allbacks]={[numCards]+1}-{[numCards]*2}
+[doubleSided]=1 - {[numCards]*2}
+PAGE=21,29.7,PORTRAIT,HV,#FFFFFF
+[textColor1] = #FFFFFF
+
+;background image
+image=[doubleSided], "./schemes.png", 0, 0, 100%, 100%
+
+;Title text
+[xtext]=5%
+[ytext]=3%
+[twidth]=90%
+[theight] = 15%
+font= "Perpetua Titling MT", 14, TB, [textColor1]
+text = [doubleSided],[name],[xtext],[ytext], [twidth], [theight],left,wwtop
+[xtext]=5%
+[ytext]=20%
+[theight] = 30%
+font= "Perpetua Titling MT", 12, TB, [textColor1]
+text = [doubleSided],"Option 1:\13\[option1]",[xtext],[ytext], [twidth], [theight],right,wwtop
+[xtext]=5%
+[ytext]=50%
+[theight] = 30%
+font= "Perpetua Titling MT", 12, TB, [textColor1]
+text = [doubleSided],"Option 2:\13\[option2]",[xtext],[ytext], [twidth], [theight],left,wwtop
+[xtext]=5%
+[ytext]=80%
+[theight] = 30%
+font= "Perpetua Titling MT", 12, TB, [textColor1]
+text = [doubleSided],"Option 3:\13\[option3]",[xtext],[ytext], [twidth], [theight],right,wwtop
+
+duplex=[all],[allbacks]
+Print=duplex
+display=./cards_[outputName]_fronts.png,1,[numCards]
+display=./cards_[outputName]_backs.png,{[numCards]+1},{[numCards]*2}
+
+; save cards with bleed
+save=[all], "./cards_numbered/cards_[outputName]{§}.png", 0, 0, 6.3, 8.8

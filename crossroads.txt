@@ -8,5 +8,5 @@ Alea Iacta Est,Gain 1 Popularity by rerolling a 4+,Lose 1 Popularity by rerollin
 Preparing the Knife,Lose 1 Loyalty to play a scheme for free,Gain 1 Loyalty
 Countryside Residences,Lower Loyalty by 1 to reduce Age of 1 character,Gain 1 Loyalty by spending 1 Dignitas
 The Perfect Opportunity,Gain a dice by losing 1 Loyalty & 1 Popularity,Lose a dice to gain 1 Loyalty & 1 Popularity
-The Best of Times,Gain 1 Loyalty/Gain 1 Popularity/Lose 1 Popularity to draw 2 schemes
+The Best of Times,Gain 1 Loyalty,Gain 1 Popularity,Lose 1 Popularity to draw 2 schemes
 Old Fashioned Bribery,Lose 1 Loyalty to add +2 to a die,Lose 1 Loyalty to gain 2 Dignitas

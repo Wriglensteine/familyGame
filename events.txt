@@ -1,9 +1,9 @@
 fileName,name,tree,description,rewardr1,rewardr2,rewardr3,failurer1,failurer2,failurer3
-conquest.png,conquest,military,We are the invaders,1 Dignitas,1 mil stat,3 Dignitas,Death roll,Death roll,-2 Vox populi
-rebellion.png,rebellion,military,To be crushed...,2 Wealth,1 Dignitas,2 Dignitas,None,None,Demotion
-festival.png,festival,religion,Party of the century. High expectations,1 Scheme,1 Dignitas,1 Dign + 1 Wlt,-1 Wealth,-1 Dignitas,Demotion
-calamity.png,calamity,religion,What were all the priests doing?,1 Dignitas,1 Scheme,3 Wealth,Death roll,Death roll,Death roll
-suzeraign.png,suzeraignty,politics,Rowdy vassals need calm diplomacy,1 Dignitas,1 Pol stat,1 Retainer,-1 Wealth,Demotion,None
-mobs.png,mobs,politics,The popularity of the senate is low,1 Pol stat,1 Dignitas,2 Dignitas,-1 Wealth,Death roll,-2 Vox Populi
-populists.png,populists,politics,Policy is far too flexible,1 Dignitas,1 Dignitas,2 Dignitas,2 Dignitas,-1 Vox populi,-2 Vox populi
-mysteryCults.png,mystery cults,religion,How to deal with the newcomers,1 Rel stat,1 Retainer,3 Dignitas,None,-1 Vox populi,-1 Vox populi
+conquest.png,conquest,military,We are the invaders,1 Dignitas,1 mil stat,3 Dignitas,3 Dignitas,1 mil stat,1 Dignitas
+rebellion.png,rebellion,military,To be crushed...,Demotion,1 Dignitas,2 Dignitas,2 Dignitas,1 Dignitas,Demotion
+festival.png,festival,religion,Party of the century. High expectations,1 Scheme,1 Dignitas,1 char stat,1 char stat,1 Dignitas,1 scheme
+calamity.png,calamity,religion,What were all the priests doing?,1 Dignitas,1 Scheme,Retire,-1 Dignitas,1 scheme,3 Dignitas
+suzeraign.png,suzeraignty,politics,Rowdy vassals need calm diplomacy,1 Dignitas,1 char stat,3 Dignitas,3 Dignitas,Demotion,-1 Dignitas
+mobs.png,mobs,politics,The popularity of the senate is low,1 Pol stat,1 Dignitas,2 Dignitas,2 Dignitas,2 Dignitas,1 Popularity
+populists.png,populists,politics,Policy is far too flexible,1 Dignitas,1 Dignitas,2 Dignitas,2 Dignitas,-1 Popularity,-2 Popularity
+mysteryCults.png,mystery cults,religion,How to deal with the newcomers,1 Rel stat,1 Loyalty,1 Loyalty,2 Dignitas,3 Dignitas,4 Dignitas
