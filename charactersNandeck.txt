@@ -1,8 +1,8 @@
-link=./characterNames.csv,name
+link=./characterNames.csv,name,military,political,religious
 ;setup
 dpi=300
 oversample=2
-[numCards]=15
+[numCards]=18
 [all]=1-[numCards]
 [allbacks]={[numCards]+1}-{[numCards]*2}
 [doubleSided]=1 - {[numCards]*2}
@@ -21,6 +21,12 @@ image=[doubleSided], ./characters/characterSheetBackground.png, 0, 0, 100%, 100%
 
 font= "Perpetua Titling MT", 12, TB, [textColor1]
 text = [doubleSided], [name],[xtext],[ytext], [twidth], [theight],left,wwtop
+font= "Perpetua Titling MT", 20, TB,#b37b7b
+text = [doubleSided], [military],50%,62%, [twidth], [theight],left,wwtop
+font= "Perpetua Titling MT", 20, TB,#aa9ab0
+text = [doubleSided], [political],70%,37%, [twidth], [theight],left,wwtop
+font= "Perpetua Titling MT", 20, TB,#72a29f
+text = [doubleSided], [religious],30%,30%, [twidth], [theight],left,wwtop
 
 duplex=[all],[allbacks]
 Print=duplex

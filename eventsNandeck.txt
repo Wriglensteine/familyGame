@@ -1,4 +1,4 @@
-link=events.txt,fileName,name,tree,description,rewardr1,rewardr2,rewardr3,failurer1,failurer2,failurer3
+link=events.txt,fileName,name,tree,compassC1,compassC2,description,rewardr1,rewardr2,rewardr3,failurer1,failurer2,failurer3
 dpi=300
 oversample=2
 
@@ -16,24 +16,35 @@ oversample=2
 [textcolor]=[darker]
 
 PAGE=21,29.7,PORTRAIT,HV,#FFFFFF,[allbacks]
-CARDSIZE=6.3,8.8
-
+CARDSIZE=8.8,6.3
 border=rounded, [dark], 0.5
 image=[all],events.png,0,0,100%,100%
-font= "arial", 20, TB, #FFFFF0
-text = [all], [name],3%,9.5%,90%,20%,right,wwtop
-text = [all], [tree],6%,2.7%,90%,20%,left,wwtop
-rectangle=[all],18%,19%,64%,43%,[dark]
-image=[all],[fileName],20%,20.5%,60%,40%
 
 layer=50%
-rectangle=[all],0%,63%,100%,37%,#FFFFF0
+rectangle=[all],0%,3%,100%,15%,#000000
 endlayer
+
+layer=50%
+rectangle=[all],0%,18%,100%,28%,#FFFF00
+endlayer
+
+layer=50%
+rectangle=[all],0%,46%,100%,54%,#FFFFF0
+endlayer
+
+font= "arial", 20, TB, #FFFFF0
+text = [all], [name],3%,2.7%,90%,20%,right,wwtop
+text = [all], [tree],6%,2.7%,90%,20%,left,wwtop
+rectangle=[all],31%,58%,38%,39%,[dark]
+image=[all],[fileName],32.5%,60%,35%,35%
+
+font= "arial", 20, TB, [textcolor]
+text = [all],[compassC1],6%,25%,88%,38%,left,wwtop
+text = [all],[compassC2],6%,25%,88%,38%,right,wwtop
 font= "arial", 11, TB, [textcolor]
-text = [all], [description],8%,63%,84%,29%,center,wwtop
-text = [all],"Option 1:\13\[rewardr1]\13\[rewardr2]\13\[rewardr3]",6%,74%,88%,38%,left,wwtop
-text = [all],"Option 2:\13\[failurer1]\13\[failurer2]\13\[failurer3]",6%,74%,88%,38%,right,wwtop
-text = [all],"rank:\13\1\13\2\13\3",6%,74%,88%,38%,center,wwtop
+text = [all], [description],8%,48%,84%,29%,center,wwtop
+text = [all],"Option 1:\13\[rewardr1]\13\[rewardr2]\13\[rewardr3]",6%,60%,88%,38%,left,wwtop
+text = [all],"Option 2:\13\[failurer1]\13\[failurer2]\13\[failurer3]",6%,60%,88%,38%,right,wwtop
 
 ; back of cards and returns
 image=[allbacks],events.png,0,0,100%,100%
