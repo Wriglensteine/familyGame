@@ -25,11 +25,11 @@ rectangle=[all],0%,3%,100%,15%,#000000
 endlayer
 
 layer=50%
-rectangle=[all],0%,18%,100%,28%,#FFFF00
+rectangle=[all],0%,18%,100%,15%,#FFFF00
 endlayer
 
 layer=50%
-rectangle=[all],0%,46%,100%,54%,#FFFFF0
+rectangle=[all],0%,33%,100%,67%,#FFFFF0
 endlayer
 
 font= "arial", 20, TB, #FFFFF0
@@ -39,10 +39,10 @@ rectangle=[all],31%,58%,38%,39%,[dark]
 image=[all],[fileName],32.5%,60%,35%,35%
 
 font= "arial", 20, TB, [textcolor]
-text = [all],[compassC1],6%,25%,88%,38%,left,wwtop
-text = [all],[compassC2],6%,25%,88%,38%,right,wwtop
+text = [all],[compassC1],6%,18%,88%,38%,left,wwtop
+text = [all],[compassC2],6%,18%,88%,38%,right,wwtop
 font= "arial", 11, TB, [textcolor]
-text = [all], [description],8%,48%,84%,29%,center,wwtop
+text = [all], [description],6%,34%,88%,29%,center,wwtop
 text = [all],"Option 1:\13\[rewardr1]\13\[rewardr2]\13\[rewardr3]",6%,60%,88%,38%,left,wwtop
 text = [all],"Option 2:\13\[failurer1]\13\[failurer2]\13\[failurer3]",6%,60%,88%,38%,right,wwtop
 

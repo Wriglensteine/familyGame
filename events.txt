@@ -1,9 +1,9 @@
 fileName,name,tree,compassC1,compassC2,description,rewardr1,rewardr2,rewardr3,failurer1,failurer2,failurer3
-conquest.png,conquest,military,Unpopular,Popular,We are the invaders,1 Dignitas,1 mil stat,3 Dignitas,3 Dignitas,1 mil stat,1 Dignitas
-rebellion.png,rebellion,military,Disloyal,Loyal,To be crushed...,Demotion,1 Dignitas,2 Dignitas,2 Dignitas,1 Dignitas,Demotion
-festival.png,festival,religion,Unpopular,Popular,Party of the century. High expectations,1 Scheme,1 Dignitas,1 char stat,1 char stat,1 Dignitas,1 scheme
+conquest.png,conquest,military,Unpopular,Popular,We are the invaders. On left add Proconsul. On right remove Proconsul.,1 Dignitas,1 mil stat,3 Dignitas,3 Dignitas,1 mil stat,1 Dignitas
+rebellion.png,rebellion,military,Disloyal,Loyal,To be crushed... On right remove rightmost Tribune role.,Demotion,1 Dignitas,2 Dignitas,2 Dignitas,1 Dignitas,Demotion
+festival.png,festival,religion,Unpopular,Popular,Party of the century. High expectations. On left add Propraetor. On right remove Propraetor.,1 Scheme,1 Dignitas,1 char stat,1 char stat,1 Dignitas,1 scheme
 calamity.png,calamity,religion,Disloyal,Loyal,What were all the priests doing?,1 Dignitas,1 Scheme,Retire,-1 Dignitas,1 scheme,3 Dignitas
-suzeraign.png,suzeraignty,politics,Unpopular,Popular,Rowdy vassals need calm diplomacy,1 Dignitas,1 char stat,3 Dignitas,3 Dignitas,Demotion,-1 Dignitas
+suzeraign.png,suzeraignty,politics,Unpopular,Popular,Rowdy vassals need calm diplomacy. On left add Propraetor. On right remove Propraetor.,1 Dignitas,1 char stat,3 Dignitas,3 Dignitas,Demotion,-1 Dignitas
 mobs.png,mobs,politics,Unpopular,Popular,The popularity of the senate is low,1 Pol stat,1 Dignitas,2 Dignitas,2 Dignitas,2 Dignitas,1 Popularity
 populists.png,populists,politics,Disloyal,Loyal,Policy is far too flexible,1 Dignitas,1 Dignitas,2 Dignitas,2 Dignitas,-1 Popularity,-2 Popularity
 mysteryCults.png,mystery cults,religion,Disloyal,Loyal,How to deal with the newcomers,1 Rel stat,1 Loyalty,1 Loyalty,2 Dignitas,3 Dignitas,4 Dignitas
