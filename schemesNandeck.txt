@@ -2,7 +2,7 @@ link=schemes.txt,filename,name, cost, effect
 dpi=300
 oversample=2
 
-[numCards]=20
+[numCards]=25
 [all]=1-[numCards]
 [allbacks]={[numCards]+1}-{[numCards]*2}
 [darkest]=#182d41

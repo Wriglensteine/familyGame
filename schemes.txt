@@ -1,10 +1,10 @@
 filename,name, cost, effect
 Introductions.png,Horsetrading,2,Swap any 2 neutral characters die.
 Introductions.png,Slow Drain,1,Lower the value of a neutral dice by 1.
-connections.png,Gossip,3,Lower a player's Vox Pop by 1.
+connections.png,Gossip,3,Move a player's Compass by 1 square.
 assassination.png,Family Name,1,Spend 1 Dignitas to add it to 1 character.
 FamilyFriend.png,Effort,3,Reroll 2 unspent action die.
-FamilyFriend.png,Bad Luck,3,Reroll another player's action dice.
+FamilyFriend.png,Bad Luck,3,Reroll all of another player's action die.
 InterestingTimes.png,Big Name,4,A character may join an ongoing promotion duel not connected to their role.
 Introductions.png,No Confidence,4,Initiate a promotion duel. The current character in the role competes too.
 Introductions.png,Propoganda,6,For one round all of your successful characters gain 1 Dignitas.
@@ -16,10 +16,10 @@ Introductions.png,Deception,0,Do nothing.
 Introductions.png,Gambit,0,Gain 1 scheme card if you lose this duel.
 Introductions.png,Allies,2,Gain 1 Dignitas for this duel. Keep it if you win.
 Introductions.png,Bickering,3,Pick a character and equally ranked opponent. Both roll job. If you win swap roles.
-Introductions.png,Gentle Push,7,Pick an opponent's character. They must make a Grace roll of 5 or retire.
+Introductions.png,Gentle Push,5,Pick an opponent's character. They must make a Grace roll of 5 or retire.
 Introductions.png,Under Pressure,5,Pick an opponent's character. They must make a Strat roll of 5 or age 1.
 Introductions.png,Spurious Rumours,5,Pick an opponent's character. They must make a Char roll of 5 or lose 2 Dig.
-Introductions.png,Singular Focus,0,Discard X schemes. Gain X Dignitas to the family pool.
+Introductions.png,Singular Focus,0,Discard X schemes. Gain one die with 2X value.
 Introductions.png,Distraction,3,Lower your opponent's duel investment by 2. Refund the Dignitas.
 Introductions.png,Assassination,5,Remove a neutral character, triggering a duel.
 Introductions.png,Effective Planning,1,Split an unspent die into two die with the same total value.
