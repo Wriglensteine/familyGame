@@ -1,4 +1,4 @@
-link=events.txt,fileName,name,tree,compassC1,compassC2,description,rewardr1,rewardr2,rewardr3,failurer1,failurer2,failurer3
+link=events.csv,fileName,name,tree,compassC1,compassC2,description,rewardr1,rewardr2,rewardr3,failurer1,failurer2,failurer3
 dpi=300
 oversample=2
 
